@@ -14,7 +14,7 @@ from trainer.pre import PreTrainer
 import os
 os.environ["LOKY_MAX_CPU_COUNT"] = "10"
 
-from trainer.meta_aug_2 import MetaTrainer_aug
+from trainer.meta_aug import MetaTrainer_aug
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -120,7 +120,7 @@ if __name__ == '__main__':
     parser.add_argument('--aug_pool', default=None, type=str,
                          choices=['only', 'single', 'medium', 'large'])
     #增强次数m
-    parser.add_argument('--m', type=int, default=1)
+    parser.add_argument('--m', type=int, default=20)
 
     #引入support_maxup的参数设置
     #meta_train阶段是否support_maxup
