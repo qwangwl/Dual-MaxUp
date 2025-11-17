@@ -1,4 +1,4 @@
-# Dual-MaxUp (Draft Implementation)
+# Dual-MaxUp
 
 This repository contains a **Pytorch implementation** of "Dual-Maxup: A Dual-Maximization Data Augmentation Strategy for Cross-Subject EEG Emotion Recognition in Meta-Transfer Learning". 
 
